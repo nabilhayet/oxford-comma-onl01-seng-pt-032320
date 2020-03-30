@@ -10,6 +10,6 @@ def oxford_comma(array)
     binding.pry
     s=array.join(", ")
   end 
-return s 
+  return s 
 end
 
