@@ -1,5 +1,4 @@
 require "pry"
-
 def oxford_comma(array)
   s=""
 if array.length() ==1 
