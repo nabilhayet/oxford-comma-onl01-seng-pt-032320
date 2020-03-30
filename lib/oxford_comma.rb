@@ -1,16 +1,15 @@
 require "pry"
 def oxford_comma(array)
   s=""
-if array.length() ==1 
+  if array.length() ==1 
     s=array.join
-  else if array.length() ==2 
+  elsif array.length() ==2 
        s=s+array.join(" and ")
-        
   else
     array[-1].insert(0, "and ")
     binding.pry
     s=array.join(", ")
-end 
+  end 
 return s 
 end
 
