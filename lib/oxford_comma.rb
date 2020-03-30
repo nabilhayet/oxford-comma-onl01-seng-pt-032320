@@ -1,3 +1,5 @@
+require "pry"
+
 def oxford_comma(array)
   s=""
   
@@ -8,7 +10,11 @@ def oxford_comma(array)
         
   else
     
+    
+    array.insert(-1,"and")
+    binding.pry
     s=s+array.join(", ")
+    
     
    
    
